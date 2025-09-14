@@ -1,3 +1,85 @@
+/* Contact Page Enhancements */
+.lead {
+  font-size: 1.15rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+.contact-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.contact-card h2 {
+  margin-top: 0;
+  color: var(--brand);
+  font-size: 1.1rem;
+}
+.text-muted {
+  color: var(--text-light);
+  font-size: 0.95em;
+}
+.contact-form {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.contact-form h2 {
+  margin-top: 0;
+  color: var(--brand);
+  font-size: 1.1rem;
+}
+.contact-form label {
+  font-size: 0.97rem;
+  color: var(--text-light);
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+.contact-form input,
+.contact-form textarea {
+  font: inherit;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+  resize: vertical;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  transition: border 0.2s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--brand-accent);
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.contact-form .btn {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
 /* Base Reset / Modern Normalize Lite */
 * {
   box-sizing: border-box;
