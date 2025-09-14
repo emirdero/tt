@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Not Found | ttadv</title>
+    <meta
+      name="description"
+      content="The page you are looking for was not found."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="robots" content="noindex" />
+    <meta name="color-scheme" content="light dark" />
+  </head>
+  <body class="subpage">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">ttadv</a>
+        <nav class="nav" id="primaryNav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            id="navToggle"
+            aria-label="Menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+            type="button"
+          >
+            <span id="themeToggleLabel">Dark</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="container narrow" aria-labelledby="notfound-heading">
+      <h1 id="notfound-heading">404 – Not Found</h1>
+      <p>The page you requested does not exist or may have been moved.</p>
+      <ul class="checklist" style="margin-top: 1.5rem">
+        <li>Check the URL spelling</li>
+        <li>Return to the homepage</li>
+        <li>Contact us if you believe this is an error</li>
+      </ul>
+      <p>
+        <a class="btn" href="index.html">Go Home</a>
+        <a class="btn" style="margin-left: 0.5rem" href="contact.html"
+          >Contact</a
+        >
+      </p>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>ttadv</strong><br />
+          Boutique Law & Advisory<br />
+          © <span id="year"></span> ttadv. All rights reserved.
+        </div>
+        <div class="footer-contact">
+          <p>
+            <strong>Contact</strong><br />
+            Email: <a href="mailto:contact@ttadv.com">contact@ttadv.com</a
+            ><br />
+            Phone: <a href="tel:+4712345678">+47 12 34 56 78</a>
+          </p>
+        </div>
+        <div class="footer-meta">
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

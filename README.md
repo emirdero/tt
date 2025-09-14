@@ -127,6 +127,12 @@ jobs:
 
 After merging to `main`, go to Settings > Pages and confirm the build is active ("GitHub Actions").
 
+## 404 Page
+
+A custom `404.html` is included. GitHub Pages will automatically serve this file for unknown routes at the site root. For local testing of unknown routes with a simple Python server you will only see directory listings or built-in 404; to simulate, directly open `404.html`.
+
+If you add client-side routing later, keep `404.html` lightweight and optionally inject redirect logic.
+
 ## Suggested Next Enhancements
 
 - Add Open Graph / Twitter meta tags for richer sharing.
