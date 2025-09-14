@@ -62,7 +62,7 @@
         const stored = applyStoredTheme();
         let active = stored;
         if (!active) {
-            active = systemPrefersDark() ? 'dark' : 'light';
+            active = 'dark'; // Always default to dark mode
             document.documentElement.setAttribute('data-theme', active);
         }
         updateToggleLabel(active);
