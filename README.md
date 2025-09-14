@@ -1,4 +1,4 @@
-# ttadv – Boutique Law & Advisory Website
+# ttadv – Expert Law & Advisory Website
 
 Static, lightweight marketing site for the small law firm ttadv (Attorney: Tormod Torvanger). Built with plain HTML/CSS/JS for portability and easy hosting (GitHub Pages, Netlify, Vercel, simple VPS, S3, etc.).
 
