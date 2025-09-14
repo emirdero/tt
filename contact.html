@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | ttadv</title>
+    <meta
+      name="description"
+      content="Contact ttadv for legal and strategic advisory services."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="subpage">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/index.html">ttadv</a>
+        <nav class="nav" id="primaryNav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            id="navToggle"
+            aria-label="Menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li>
+              <a href="/contact.html" class="active" aria-current="page"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+            type="button"
+          >
+            <span id="themeToggleLabel">Dark</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="container narrow" aria-labelledby="contact-heading">
+      <h1 id="contact-heading">Contact</h1>
+      <p>Send a concise summary of your matter and we will respond promptly.</p>
+      <div class="contact-grid">
+        <div>
+          <h2>Direct</h2>
+          <p>
+            Email: <a href="mailto:tt@ttadv.no">tt@ttadv.no</a><br />
+            Phone: <a href="tel:+4712345678">+47 12 34 56 78</a>
+          </p>
+          <h2>Address</h2>
+          <p>
+            Oslo, Norway<br />
+            (Meetings by appointment)
+          </p>
+        </div>
+        <form id="contactForm" novalidate>
+          <label
+            >Name<span aria-hidden="true">*</span>
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label
+            >Email<span aria-hidden="true">*</span>
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label
+            >Subject
+            <input type="text" name="subject" />
+          </label>
+          <label
+            >Message<span aria-hidden="true">*</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send</button>
+          <p id="formStatus" role="status" class="visually-hidden"></p>
+        </form>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>ttadv</strong><br />
+          Boutique Law & Advisory<br />
+          © <span id="year"></span> ttadv. All rights reserved.
+        </div>
+        <div class="footer-contact">
+          <p>
+            <strong>Contact</strong><br />
+            Email: <a href="mailto:tt@ttadv.no">tt@ttadv.no</a><br />
+            Phone: <a href="tel:+4712345678">+47 12 34 56 78</a>
+          </p>
+        </div>
+        <div class="footer-meta">
+          <a href="/about.html">About</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
