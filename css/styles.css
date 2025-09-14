@@ -390,7 +390,6 @@ form textarea:focus {
 }
 :root[data-theme="dark"] .btn.cta {
   background: #fff;
-  color: #183765;
 }
 :root[data-theme="dark"] .btn.cta:hover {
   background: rgba(255, 255, 255, 0.85);
