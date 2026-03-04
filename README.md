@@ -1,6 +1,6 @@
-# ttadv – Expert Law & Advisory Website
+# TT Advokat AS – Expert Law & Advisory Website
 
-Static, lightweight marketing site for the small law firm ttadv (Attorney: Tormod Torvanger). Built with plain HTML/CSS/JS for portability and easy hosting (GitHub Pages, Netlify, Vercel, simple VPS, S3, etc.).
+Static, lightweight marketing site for the small law firm TT Advokat AS (Attorney: Tormod Torvanger). Built with plain HTML/CSS/JS for portability and easy hosting (GitHub Pages, Netlify, Vercel, simple VPS, S3, etc.).
 
 ## Structure
 
@@ -80,7 +80,7 @@ python3 -m http.server 8080
 A theme toggle is included. Behavior:
 
 - Auto-detects system preference on first load (no stored choice).
-- User selection (Dark/Light) stored in `localStorage` key `ttadv-theme`.
+- User selection (Dark/Light) stored in `localStorage` key `TT Advokat AS-theme`.
 - Toggle button text shows the mode you will switch to.
 - Uses CSS variable theming on `:root[data-theme]`.
 

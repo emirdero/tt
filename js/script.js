@@ -42,7 +42,7 @@
     }
 
     const applyStoredTheme = () => {
-        const stored = localStorage.getItem('ttadv-theme');
+        const stored = localStorage.getItem('TT Advokat AS-theme');
         if (stored === 'light' || stored === 'dark') {
             document.documentElement.setAttribute('data-theme', stored);
             return stored;
@@ -72,7 +72,7 @@
         const current = document.documentElement.getAttribute('data-theme');
         const next = current === 'dark' ? 'light' : 'dark';
         document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('ttadv-theme', next);
+        localStorage.setItem('TT Advokat AS-theme', next);
         updateToggleLabel(next);
     };
 
